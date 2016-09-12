@@ -1,6 +1,8 @@
 Год постройки (YearBuild): зависимость цены от года постройки явно нелинейная. Попробовать спрямить, может быть логарифмических координатах.
 
-Проверить заполнение колонки  YearRemodAdd. Если много пустых, то заполнить значениями из YearBuilt.
++ Проверить заполнение колонки  YearRemodAdd. Если много пустых, то заполнить значениями из YearBuilt.
+
+- длина владения по улице LotFrontage. Много пустых значений. Если длина владения неизвестна и форма владения - квадратная, то пересчитать длину владения
 
 Here's a brief version of what you'll find in the data description file.
 
@@ -10,10 +12,11 @@ Here's a brief version of what you'll find in the data description file.
     
     LotFrontage: Linear feet of street connected to property
     LotArea: Lot size in square feet
+    LotShape: General shape of property
     
     Street: Type of road access
     Alley: Type of alley access
-    LotShape: General shape of property
+
     LandContour: Flatness of the property
     Utilities: Type of utilities available
     LotConfig: Lot configuration
@@ -73,6 +76,7 @@ Here's a brief version of what you'll find in the data description file.
     GarageArea: Size of garage in square feet
     GarageQual: Garage quality
     GarageCond: Garage condition
+    
     
     PavedDrive: Paved driveway
     WoodDeckSF: Wood deck area in square feet
