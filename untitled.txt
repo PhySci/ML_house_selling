@@ -3,6 +3,13 @@
 + Проверить заполнение колонки  YearRemodAdd. Если много пустых, то заполнить значениями из YearBuilt.
 
 - длина владения по улице LotFrontage. Много пустых значений. Если длина владения неизвестна и форма владения - квадратная, то пересчитать длину владения
+   Итого: не работает.
+
++ Пересчитать в log scale возрастные признаки: 'YearBuilt', 'GarageYrBlt', 'YearRemodAdd'.
+   Итого: так себе, особо никуда не стучит.
+
++ Из рассмотрения можно выкидывать даты продажи - никуда не стучит.
+
 
 Here's a brief version of what you'll find in the data description file.
 
@@ -89,7 +96,9 @@ Here's a brief version of what you'll find in the data description file.
     Fence: Fence quality
     MiscFeature: Miscellaneous feature not covered in other categories
     MiscVal: $Value of miscellaneous feature
+    
     MoSold: Month Sold
     YrSold: Year Sold
+    
     SaleType: Type of sale
     SaleCondition: Condition of sale
