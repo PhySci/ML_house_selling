@@ -134,3 +134,24 @@ Here's a brief version of what you'll find in the data description file.
     
     SaleType: Type of sale
     SaleCondition: Condition of sale
+    
+    
+    Посмотреть статистику по CentralAir. Может быть можно заменить на одну численную категорию.
+    Посмотреть статистику по Neighborhood.
+    Проверить корреляцию между GarageQual и GarageCond
+    
+     Список величин на замену (качественные в количественные):
+     1) ExterQual
+     2) ExterCond
+     3) BsmtQual
+     4) BsmtCond
+     5) PoolQC
+     6) HeatingQC
+     7) KitchenQual
+     8) GarageQual
+     9) GarageCond
+     10) FireplaceQu
+     11) PoolQC
+     
+     Для MSZoning наблюдается хорошая коррелляция между значениями и ценой.
+    
