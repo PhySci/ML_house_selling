@@ -126,8 +126,9 @@ Here's a brief version of what you'll find in the data description file.
     PoolArea: Pool area in square feet
     PoolQC: Pool quality
     Fence: Fence quality
-    MiscFeature: Miscellaneous feature not covered in other categories
-    MiscVal: $Value of miscellaneous feature
+    
+    MiscFeature: Miscellaneous feature not covered in other categories          
+    MiscVal: $Value of miscellaneous feature                                 <--- нифига не линейная зависимость, выбросить её нафиг
     
     MoSold: Month Sold
     YrSold: Year Sold
@@ -136,7 +137,7 @@ Here's a brief version of what you'll find in the data description file.
     SaleCondition: Condition of sale
     
     
-    Посмотреть статистику по CentralAir. Может быть можно заменить на одну численную категорию.
+    +Посмотреть статистику по CentralAir. Может быть можно заменить на одну численную категорию.
     Посмотреть статистику по Neighborhood.
     Проверить корреляцию между GarageQual и GarageCond
     
