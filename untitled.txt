@@ -154,4 +154,8 @@ Here's a brief version of what you'll find in the data description file.
      11) PoolQC
      
      Для MSZoning наблюдается хорошая коррелляция между значениями и ценой.
+     
+     OveralQuality надо приводить к линейному виду.
+     
+     Выбросить площадь бассейна - данных по этому полю слишком мало.
     
