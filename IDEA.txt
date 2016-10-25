@@ -56,13 +56,18 @@ Here's a brief version of what you'll find in the data description file.
     Utilities: Type of utilities available
     LotConfig: Lot configuration
     LandSlope: Slope of property
+    
     Neighborhood: Physical locations within Ames city limits
+    
     Condition1: Proximity to main road or railroad
     Condition2: Proximity to main road or railroad (if a second is present)
+    
     BldgType: Type of dwelling
     HouseStyle: Style of dwelling
+    
     OverallQual: Overall material and finish quality
     OverallCond: Overall condition rating
+    
     YearBuilt: Original construction date
     YearRemodAdd: Remodel date
     RoofStyle: Type of roof
@@ -74,14 +79,19 @@ Here's a brief version of what you'll find in the data description file.
     ExterQual: Exterior material quality
     ExterCond: Present condition of the material on the exterior
     Foundation: Type of foundation
+    
+    
+                                   BASEMENT
     BsmtQual: Height of the basement
     BsmtCond: General condition of the basement
     BsmtExposure: Walkout or garden level basement walls
     BsmtFinType1: Quality of basement finished area
+    
     BsmtFinSF1: Type 1 finished square feet
-    BsmtFinType2: Quality of second finished area (if present)
     BsmtFinSF2: Type 2 finished square feet
+    BsmtFinType2: Quality of second finished area (if present)
     BsmtUnfSF: Unfinished square feet of basement area
+    
     TotalBsmtSF: Total square feet of basement area
     
     Heating: Type of heating
@@ -89,8 +99,10 @@ Here's a brief version of what you'll find in the data description file.
     
     CentralAir: Central air conditioning
     Electrical: Electrical system
+    
     1stFlrSF: First Floor square feet
     2ndFlrSF: Second floor square feet
+    
     LowQualFinSF: Low quality finished square feet (all floors)
     GrLivArea: Above grade (ground) living area square feet
     BsmtFullBath: Basement full bathrooms
